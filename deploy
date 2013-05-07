@@ -34,7 +34,7 @@ md5sum *.bin > MD5SUMS
 [[ -n untested/*.bin ]] && 
 {
 sha256sum untested/* >> SHA256SUMS
-md5sum untested/* >> MD5SUMS1
+md5sum untested/* >> MD5SUMS1
 }
 
 [[ -n packages/* ]] && 
