@@ -5,6 +5,9 @@ make clean
 ## Zum erstellen der Tags brauchen wir github-URLs auf die ein Push moeglich ist
 cp feeds.conf.pushable feeds.conf.default
 
+VERSION=$(cat version|cut -d"-" -f1)
+[[ -n $VERSION ]] && VERSION=0.9.8
+
 # Fees installieren
 scripts/feeds update -a 
 scripts/feeds install -a

@@ -1,4 +1,4 @@
-src-git packages ssh://git@github.com/ff-kbu/fff-packages.git;1.0
+src-git packages ssh://git@github.com/christf/fff-packages.git;1.0
 #git@github.com:ff-kbu/fff-config-mode.git
 src-git luci ssh://git@github.com/ff-kbu/fff-luci.git;1.0
 src-git fastd ssh://git@github.com/ff-kbu/fff-fastd.git;1.0
